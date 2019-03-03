@@ -17,6 +17,28 @@
          <link href="icon.png" rel="icon">
          <link rel="canonical" href="https://gerrymoeis.ga">
          <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+        <script>
+			var looper;
+			var degrees = 0;
+			function rotateAnimation(el, speed)
+			{
+				var icon = document.getElementById(el);
+				if(navigator.userAgent.match())
+				{
+					icon.style.WebkitTransform = "rotate("+degrees+"deg)";
+				}
+				else
+				{
+					icon.style.WebkitTransform = "rotate("+degrees+"deg)";
+				}
+				looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+				degrees++;
+				if(degrees > 359)
+				{
+					degrees = 1;
+				}
+			}
+		</script>
     </head>
     
     <body>
@@ -171,7 +193,7 @@
         </div>
         </div>
         
-        <div class="skill">
+        <div class="skill" id="skill">
         <div class="card">
             <div class="front"><img class="img2" src="image3.jpg"></div>
             <div class="back">
@@ -183,7 +205,37 @@
                 </div>
             </div>
         </div>
+        <div class="card2">
+            <div class="front2"><img class="img3" src="image4.jpg"></div>
+            <div class="back2">
+                <div class="details3">
+                    <h2 class="textskill3">Gerry Moeis<br><span class="textskill4">Skill</span></h2>
+                    <div class="details4">
+                        <p class="tskill4">HTML</p><p class="tskill5">CSS</p><p class="tskill6">C++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="front3"><img class="img4" src="image5.jpg"></div>
+            <div class="back3">
+                <div class="details5">
+                    <h2 class="textskill5">Gerry Moeis<br><span class="textskill6">Skill</span></h2>
+                    <div class="details6">
+                        <p class="tskill7">HTML</p><p class="tskill8">CSS</p><p class="tskill9">C++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
         
+     <div class="audio">
+		<audio controls>
+		  <source src="music2.mp3" type="audio/mpeg">
+		</audio>
+     </div>
+        
+        <img id="img1" class="imgme" src="me3.png" alt="icon">
+	   <script>rotateAnimation("img1",20);</script>
     </body>
 </html>

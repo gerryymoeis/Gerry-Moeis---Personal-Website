@@ -224,7 +224,7 @@ path
     position: absolute;
     top: 203%;
     width: 100%;
-    height: 93%;
+    height: 91%;
     background-color: darkseagreen;
     background-position: center;
     opacity: 0.9;
@@ -240,7 +240,7 @@ path
     height: 400px;
     transform-style: preserve-3d;
     perspective: 600px;
-    transition: 0.8s;
+    transition: 1s;
 }
 
 .card .front
@@ -253,7 +253,7 @@ path
     background: #000;
     backface-visibility: hidden;
     transform: rotateX(0deg);
-    transition: 0.8s;
+    transition: 1s;
 }
 
 .card:hover .front
@@ -271,7 +271,7 @@ path
     background: #000;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    transition: 0.8s;
+    transition: 1s;
 }
 
 .card .back:before
@@ -321,8 +321,7 @@ path
     padding: 10px 0;
     color: #fff;
     background: #262626;
-    border: 3px;
-    border-radius: 50%;
+    border: 50%;
 }
 
 .details2 .tskill .tskill2 .tskill3
@@ -332,8 +331,7 @@ path
     height: 25px;
     text-align: center;
     background: #262626;
-    border: 3px;
-    border-radius: 50%;
+    border: 50%;
     transition: 0.8s;
 }
 
@@ -361,6 +359,286 @@ path
 {
     width: 300px;
     height: 400px;
+}
+
+.card2
+{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 1s;
+}
+
+.card2 .front2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 1s;
+}
+
+.card2:hover .front2
+{
+    transform: rotateX(180deg);
+}
+
+.card2 .back2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(-180deg);
+    transition: 1s;
+}
+
+.card2 .back2:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 300, 0.2);
+}
+
+.card2:hover .back2
+{
+    transform: rotateX(0deg);
+}
+
+.card2 .back2 .details3
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card2 .back2 .details3 .textskill3
+{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    color: #fff;
+}
+
+.card2 .back2 .details3 .textskill3 .textskill4
+{
+    color: #a7a7a7;
+    font-size: 24px;
+}
+
+.details4
+{
+    padding: 10px 0;
+    color: #fff;
+    background: #262626;
+    border: 50%;
+}
+
+.details4 .tskill4 .tskill5 .tskill6
+{
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #262626;
+    border: 50%;
+    transition: 0.8s;
+}
+
+.details4 .tskill4 .tskill5 .tskill6
+{
+    line-height: 36px;
+}
+
+.details4 .tskill4:hover
+{
+    background: #e91e63;
+}
+
+.details4 .tskill5:hover
+{
+    background: #e91e63;
+}
+
+.details4 .tskill6:hover
+{
+    background: #e91e63;
+}
+
+.img3
+{
+    width: 300px;
+    height: 400px;
+}
+
+.card3
+{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 1s;
+}
+
+.card3 .front3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 1s;
+}
+
+.card3:hover .front3
+{
+    transform: rotateX(180deg);
+}
+
+.card3 .back3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(-180deg);
+    transition: 1s;
+}
+
+.card3 .back3:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 300, 0.2);
+}
+
+.card3:hover .back3
+{
+    transform: rotateX(0deg);
+}
+
+.card3 .back3 .details5
+{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card3 .back3 .details5 .textskill5
+{
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+    color: #fff;
+}
+
+.card3 .back3 .details5 .textskill5 .textskill6
+{
+    color: #a7a7a7;
+    font-size: 24px;
+}
+
+.details6
+{
+    padding: 10px 0;
+    color: #fff;
+    background: #262626;
+    border: 50%;
+}
+
+.details6 .tskill7 .tskill8 .tskill9
+{
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: #262626;
+    border: 50%;
+    transition: 0.8s;
+}
+
+.details6 .tskill7 .tskill8 .tskill9
+{
+    line-height: 36px;
+}
+
+.details6 .tskill7:hover
+{
+    background: #e91e63;
+}
+
+.details6 .tskill8:hover
+{
+    background: #e91e63;
+}
+
+.details6 .tskill9:hover
+{
+    background: #e91e63;
+}
+
+.img4
+{
+    width: 300px;
+    height: 400px;
+}
+
+.audio
+{
+	position: fixed;
+	bottom: 0;
+	right: 300px;
+	width: 0px;
+	height: 50px;
+}
+
+.imgme
+{
+	position: fixed;
+	bottom: 0;
+	left:0;
+	width: 100px;
+	height: 100px;
 }
 
 @keyframes animate
